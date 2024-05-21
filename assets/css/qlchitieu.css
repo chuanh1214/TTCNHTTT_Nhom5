@@ -53,6 +53,11 @@
     display: none;
 }
 
+.header .user i{
+    font-size: 28px;
+}
+
+
 /* End Header  */
 
 /* BODY */

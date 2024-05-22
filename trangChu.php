@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Manager</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/indexStyle.css">
     <link rel="stylesheet" href="assets/css/indexResponsive.css">
@@ -29,9 +26,12 @@
                         </a>
                         <div class="inner-menu">
                             <ul>
-                                <li><a href="./dangKy.html">Đăng ký</a></li>
-                                <li><a href="./dangNhap.html">Đăng nhập</a></li>
-                                <li><a href="#">Đổi mật khẩu</a></li>
+                                <li><a href="./quanlithunhap.php">Thu Nhập</a></li>
+                                <li><a href="./quanlychitieu.php">Chi Tiêu</a></li>
+                                <li><a href="#">Tiết kiệm</a></li>
+                                <li><a href="#">Quản Lý Ngân Sách</a></li>
+                                <li><a href="#">Xem Đánh Dấu</a></li>
+                                <li><a href="#">Xem Thống Kê</a></li>
                             </ul>
                         </div>
                         <div class="short-menu">
@@ -42,7 +42,7 @@
             </div>
         </div>
     </header>
-    
+
     <!-- End header  -->
 
     <!-- Section One  -->
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="inner-image col-sm-6 col-md-6 col-12">
-                        <img src="assets/images/sec-one-person.png" alt="This is an image">
+                    <img src="assets/images/sec-one-person.png" alt="This is an image">
                 </div>
             </div>
         </div>
@@ -148,8 +148,7 @@
             </div>
         </div>
     </footer>
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    <script src="assets/bootstrap/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
 

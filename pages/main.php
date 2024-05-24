@@ -1,7 +1,7 @@
 <main class="main">
     <?php
-    if (isset($_GET['logon'])) {
-        $tam = $_GET['logon'];
+    if (isset($_GET['quanly'])) {
+        $tam = $_GET['quanly'];
     } else {
         $tam = '';
     }

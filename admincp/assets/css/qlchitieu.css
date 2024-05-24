@@ -1,0 +1,176 @@
+/* Header */
+.header {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0/10%);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    /* background-image: url(../images/bg_header.png); */
+    background-color: var(--color-one);
+}
+
+.header .inner-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header .inner-logo img {
+    height: 48px;
+    width: auto;
+}
+
+.header .inner-logo .inner-name {
+    color: var(--color-text);
+    font-size: 24px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+.header .inner-main .inner-menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.header .inner-main .inner-menu ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header .inner-main .inner-menu ul li a {
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header .inner-main .inner-menu li:hover a {
+    text-decoration: underline;
+}
+
+.header .inner-main .short-menu {
+    display: none;
+}
+
+.header .user i{
+    font-size: 28px;
+}
+
+
+/* End Header  */
+
+/* BODY */
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FF5757;
+}
+
+
+.container button {
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FF5757;
+}
+
+.container table {
+    width: 100%;
+    margin-top: 52px ;
+    margin-bottom: 100px;
+  }
+
+  .container table caption {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .container table tr {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+  }
+
+  .container table td button{
+    width: 100%;
+    color: #fff;
+  }
+
+  .container table tr th{
+    background-color: #FF5757;
+    color:#fff;
+  }
+
+  .container table .SuaXoa a{
+    color:#FF5757;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .container table td .SuaXoa:hover a{
+    text-decoration: underline;
+  } 
+
+
+/* Footer  */
+.footer {
+    background-color: #FF5757;
+    padding: 80px 0;
+}
+
+.footer .inner-main {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .inner-main .item-left {
+    width: auto;
+}
+
+.footer .inner-main .item-left ul {
+    display: flex;
+    padding: 0;
+}
+
+.footer .inner-main .item-left ul li {
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+.footer .inner-main .item-left ul li::before {
+    content: "•";
+    padding-right: 3px;
+    color: var(--color-one);
+}
+
+.footer .inner-main .item-left ul li a {
+    color: var(--color-one);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer .inner-main .item-left ul li:hover a {
+    text-decoration: underline;
+}
+
+.footer .inner-main .item-left .item-desc {
+    color: var(--color-one);
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.footer .inner-main .item-right {
+    width: 150px;
+}
+
+.footer .inner-main .item-right img {
+    width: 100%;
+    height: auto;
+}
+
+/* End Footer */

@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/indexStyle.css">
     <link rel="stylesheet" href="assets/css/indexResponsive.css">
-    <link rel="stylesheet" href="assets/css/dangNhapStyle.css">
-    <link rel="stylesheet" href="assets/css/dangNhapResponsive.css">
-    <link rel="stylesheet" href="assets/css/dangKyStyle.css">
-    <link rel="stylesheet" href="assets/css/dangKyResponsive.css">
+    <link rel="stylesheet" href="assets/css/qlloaithunhap.css">
+    <link rel="stylesheet" href="assets/css/themsuaxoaQLLTN.css">
+    <link rel="stylesheet" href="assets/css/qlloaichitieu.css">
+    <link rel="stylesheet" href="assets/css/themsuaxoaQLLCT.css">
 </head>
 
 <body>
     <?php
+    include("config/config.php");
     include("modules/header.php");
     include("modules/main.php");
     include("modules/footer.php");

@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/indexStyle.css">
     <link rel="stylesheet" href="assets/css/indexResponsive.css">
-    <link rel="stylesheet" href="./assets/css/dangNhapStyle.css">
-    <link rel="stylesheet" href="./assets/css/dangNhapResponsive.css">
-    <link rel="stylesheet" href="./assets/css/dangKyStyle.css">
-    <link rel="stylesheet" href="./assets/css/dangKyResponsive.css">
+    <link rel="stylesheet" href="assets/css/dangNhapStyle.css">
+    <link rel="stylesheet" href="assets/css/dangNhapResponsive.css">
+    <link rel="stylesheet" href="assets/css/dangKyStyle.css">
+    <link rel="stylesheet" href="assets/css/dangKyResponsive.css">
 </head>
 
 <body>

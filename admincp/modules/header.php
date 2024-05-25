@@ -9,8 +9,8 @@
                     </a>
                     <div class="inner-menu">
                         <ul>
-                            <li><a href="index.php?action=quanlyloaithunhap">Quản lý loại thu nhập</a></li>
-                            <li><a href="index.php?action=quanlyloaichitieu">Quản lý loại chi tiêu</a></li>
+                            <li><a href="index.php?action=quanlyloaithunhap&query=lietke">Quản lý loại thu nhập</a></li>
+                            <li><a href="index.php?action=quanlyloaichitieu&query=lietke">Quản lý loại chi tiêu</a></li>
                         </ul>
                     </div>
                     <div class="short-menu">

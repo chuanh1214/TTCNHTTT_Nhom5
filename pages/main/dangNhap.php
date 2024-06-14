@@ -1,5 +1,11 @@
 <?php
-include('../../config/config.php');
+$mysqli = new mysqli("localhost", "root", "", "qlctgd");
+
+// Check connection
+if ($mysqli->connect_errno) {
+    echo "Kết nối MySQLi lỗi " . $mysqli->connect_error;
+    exit();
+}
 if (isset($POST['dangnhap'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -8,7 +14,7 @@ if (isset($POST['dangnhap'])) {
     $count = mysqli_num_rows($row);
     if ($count > 0) {
         $_SESSION['dangnhap'] = $email;
-        header('Location:../../index.php');
+        header('Location:index.php');
     } else {
         echo '<script>alert("Email hoặc mật khẩu không đúng, vui lòng nhập lại.")</scripts?>';
         header('Location:dangNhap.php');

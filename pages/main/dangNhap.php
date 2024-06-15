@@ -1,11 +1,4 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "", "qlctgd");
-
-// Check connection
-if ($mysqli->connect_errno) {
-    echo "Kết nối MySQLi lỗi " . $mysqli->connect_error;
-    exit();
-}
 if (isset($POST['dangnhap'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];

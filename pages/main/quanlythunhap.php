@@ -1,53 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Money Manager</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="../../assets/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/css/base.css">
-    <link rel="stylesheet" href="../../assets/css/qlthunhap.css">
-    <link rel="stylesheet" href="../../assets/css/themsuaxoaQLTN.css">
-</head>
-
-<body>
-
-    <!-- Header  -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="inner-main">
-                        <a class="inner-logo" href="./index.html">
-                            <img src="../../assets/images/moneyManager.png" alt="Logo moneyManager">
-                            <span class="inner-name">Money Manager</span>
-                        </a>
-                        <div class="inner-menu">
-                            <ul>
-                                <li><a href="quanlythunhap.php">Thu Nhập</a></li>
-                                <li><a href="quanlychitieu.php">Chi Tiêu</a></li>
-                                <li><a href="#">Tiết kiệm</a></li>
-                                <li><a href="#">Quản Lý Ngân Sách</a></li>
-                                <li><a href="#">Xem Đánh Dấu</a></li>
-                                <li><a href="#">Xem Thống Kê</a></li>
-                            </ul>
-                        </div>
-                        <div class="user">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-                        <div class="short-menu">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- End header  -->
-
     <!-- BODY Quan ly chi tieu -->
     <div class="container">
         <h1 class="pt-5">Danh sách thu nhập</h1>
@@ -198,30 +148,6 @@
             </tr>
         </table>
     </div>
-
-
-    <!-- Footer  -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row inner-main">
-                <div class="item-left col-12 col-lg-8 col-md-8 col-sm-8">
-                    <ul>
-                        <li><a href="#">Liên hệ</a></li>
-                        <li><a href="#">Điều khoản sử dụng</a></li>
-                        <li><a href="#">Chính sách bảo mật</a></li>
-                        <li><a href="#">Xóa tài khoản</a></li>
-                    </ul>
-                    <p class="item-desc">Bản quyền thuộc về Nhóm 5 lớp IT6059-001</p>
-                </div>
-                <div class="item-right col-12 col-lg-4 col-md-4 col-sm-4">
-                    <img src="../../assets/images/footer_logo.png" alt="Logo footer">
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="../../assets/bootstrap/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
     <script>
         function momodal() {
             document.getElementById("nenmodal-1").classList.toggle("active");
@@ -235,6 +161,3 @@
             document.getElementById("nenmodal-3").classList.toggle("active");
         }
     </script>
-</body>
-
-</html>

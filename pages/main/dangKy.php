@@ -1,21 +1,16 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "", "qlctgd");
-
-// Check connection
-if ($mysqli->connect_errno) {
-    echo "Kết nối MySQLi lỗi " . $mysqli->connect_error;
-    exit();
+if (isset($_POST['dangKy'])) {
+    $hoTen = $_POST['full_name'];
+    $sdt = $_POST['phone_number'];
+    $email = $_POST['email'];
+    $matKhau = $_POST['password'];
+    $row = mysqli_query($mysqli, "SELECT * from nguoidung");
+    $count = mysqli_num_rows($row);
+    $maTaiKhoan = "" . ($count + 1);
+    mysqli_query($mysqli, "INSERT INTO taikhoan VALUE('" . $maTaiKhoan . "','" . $email . "','" . $matKhau . "')");
+    mysqli_query($mysqli, "INSERT INTO nguoidung(hoTen, sdt, email, maTaiKhoan) VALUE('" . $hoTen . "','" . $sdt . "','" . $email . "','" . $maTaiKhoan . "') ");
+    header('Location:index.php');
 }
-
-    if(isset($_POST['dangKy'])){
-        $hoTen = $_POST['full_name'];
-        $sdt = $_POST['phone_number'];
-        $email = $_POST['email'];
-        $matKhau = $_POST['password'];
-
-       mysqli_query($mysqli, "INSERT INTO dangky(hoTen, sdt, email, matKhau) VALUE('".$hoTen."','".$sdt."','".$email."','".$matKhau."') ");
-       header('Location:index.php');
-    }
 ?>
 <div class="register">
     <div class="container">

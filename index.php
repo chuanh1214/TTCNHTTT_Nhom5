@@ -14,12 +14,11 @@
     <link rel="stylesheet" href="assets/css/qlthunhap.css">
     <link rel="stylesheet" href="assets/css/themsuaxoaQLCT.css">
 </head>
-<?php
-include("config/config.php")
-?>
 
 <body>
     <?php
+    include("config/config.php");
+    session_start();
     include("pages/header.php");
     include("pages/main.php");
     include("pages/footer.php");

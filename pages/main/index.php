@@ -1,3 +1,8 @@
+<?php
+if (!isset($_SESSION['dangky'])) {
+    header('Location:index.php?quanly=dangnhap');
+}
+?>
 <div class="section-one">
     <div class="container">
         <div class="row inner-main list-group-horizontal">

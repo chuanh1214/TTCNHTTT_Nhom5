@@ -58,8 +58,8 @@ if (isset($_POST['dangnhap'])) {
                         <h2 class="title">Đăng Nhập</h2>
 
                         <form action="" autocomplete="off" method="POST">
-                            <input type="email" name="email" placeholder="Email">
-                            <input type="password" name="password" placeholder="Mật khẩu">
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="password" name="password" placeholder="Mật khẩu" required>
                             <button type="submit" name="dangnhap">Đăng nhập</button>
                         </form>
                     </div>

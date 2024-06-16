@@ -1,4 +1,5 @@
 <?php
+$failLogin = "";
 if (isset($_POST['dangnhap'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -7,7 +8,7 @@ if (isset($_POST['dangnhap'])) {
     $count1 = mysqli_num_rows($row1);
     if ($count1) {
         $row_data = mysqli_fetch_array($row1);
-        $_SESSION['dangky'] = $row_data['email'];
+        $_SESSION['dangky'] = $row_data['maTaiKhoan'];
         header('Location:index.php');
     } else {
         header('Location:index.php?quanly=dangnhap');

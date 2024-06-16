@@ -10,7 +10,7 @@ if (isset($_POST['dangKy'])) {
     $sql_dangky = mysqli_query($mysqli, "INSERT INTO taikhoan VALUE('" . $maTaiKhoan . "','" . $email . "','" . $matKhau . "')");
     $sql_dangky = mysqli_query($mysqli, "INSERT INTO nguoidung(maNguoiDung,hoTen, sdt, email, maTaiKhoan) VALUE('" . $maTaiKhoan . "','" . $hoTen . "','" . $sdt . "','" . $email . "','" . $maTaiKhoan . "') ");
     if ($sql_dangky) {
-        $_SESSION['dangky'] = $email;
+        $_SESSION['dangky'] = $maTaiKhoan;
         header('Location:index.php');
     }
 }

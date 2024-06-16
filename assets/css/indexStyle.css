@@ -218,6 +218,18 @@
     font-size: 16px;
 }
 
+.loaiCT {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
 .form input[type="checkbox"] {
     width: auto;
     height: auto;

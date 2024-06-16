@@ -110,6 +110,18 @@
 
 }
 
+.form-child select {
+    width: 70%;
+    height: 60px;
+    border: 0;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
 .form-child label {
     width: 30%;
     text-align: start;

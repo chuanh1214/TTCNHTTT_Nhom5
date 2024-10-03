@@ -1,5 +1,4 @@
 <?php
-$failLogin = "";
 if (isset($_POST['dangnhap'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];

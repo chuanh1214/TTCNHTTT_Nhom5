@@ -1,12 +1,10 @@
 <?php
 include('../../config/config.php');
 //Lấy dữ liệu từ form
-$query = mysqli_query($mysqli, "SELECT * from loaithunhap");
-$maThuNhap = "" . (mysqli_num_rows($query) + 1);
 $tenloaitn = $_POST['tenloaitn'];
 if (isset($_POST['themloaithunhap'])) {
     //them
-    $sql_them = "INSERT INTO loaithunhap VALUES('" . $maThuNhap . "','" . $tenloaitn . "')";
+    $sql_them = "INSERT INTO loaithunhap(tenLoaiTN) VALUES('" . $tenloaitn . "')";
     mysqli_query($mysqli, $sql_them);
     header('Location: ../../index.php?action=quanlyloaithunhap&query=lietke');
 } elseif (isset($_POST['sualoaithunhap'])) {
